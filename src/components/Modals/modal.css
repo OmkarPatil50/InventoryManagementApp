@@ -1,0 +1,111 @@
+.modal-page {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-box {
+  min-width: 400px;
+  box-sizing: border-box;
+  background-color: var(--secondary-color);
+  color: var(--black-color);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+.modal-header {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+.modal-heading {
+  width: 100%;
+  justify-self: center;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+.close-modal-btn {
+  justify-self: end;
+  padding: 0 0 20px 0;
+}
+
+.modal-details-section fieldset {
+  box-sizing: border-box;
+  margin: 10px 0;
+  min-width: 300px;
+}
+
+.modal-details-section fieldset legend {
+  font-size: 16px;
+}
+
+.modal-details-section fieldset label input {
+  box-sizing: border-box;
+  width: 90%;
+  padding: 7px 10px;
+}
+
+.btn-section-modal {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  justify-self: flex-end;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.btn-section-modal button,
+.btn-generate-report {
+  box-sizing: border-box;
+  padding: 7.5px 20px;
+  font-size: var(--s-size);
+  border: none;
+  margin: 0;
+  color: var(--secondary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid var(--action-color);
+}
+
+.btn-generate-report {
+  margin-top: 20px;
+}
+
+.btn-section-modal button:hover {
+  opacity: 0.7;
+}
+
+.btn-generate-report:hover {
+  transition-duration: 0.3s;
+  background-color: var(--secondary-color);
+  color: var(--action-color);
+  border: 1px solid var(--action-color);
+}
+
+.btn-save-modal {
+  background-color: var(--action-color);
+}
+
+.btn-discard-modal {
+  background-color: red;
+}
+
+.sale-item-name-select {
+  padding: 10px;
+  cursor: pointer;
+  min-width: 90%;
+}

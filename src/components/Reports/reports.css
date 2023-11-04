@@ -1,0 +1,27 @@
+.report {
+  background-color: var(--secondary-color);
+  color: black;
+  padding: 20px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+  z-index: 999;
+}
+
+.report-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+table {
+  color: black;
+  border: 1px solid black;
+}
+
+th,
+td {
+  color: black;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}
